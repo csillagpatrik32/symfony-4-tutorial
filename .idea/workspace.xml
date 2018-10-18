@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77471437-efc8-4f4f-a6ae-dd2c4cf907aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bin/provision/micro-post.conf" afterPath="$PROJECT_DIR$/bin/provision/micro-post.conf" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20180927194854.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20180929142032.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20180929222817.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20181002201213.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20181004191638.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20181005230628.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20181007212909.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20181007213528.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20181010195904.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20181010222523.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +19,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="627">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -376,12 +364,12 @@
       <workItem from="1539706859964" duration="2760000" />
       <workItem from="1539799439877" duration="4293000" />
       <workItem from="1539810905075" duration="1021000" />
-      <workItem from="1539894276027" duration="2382000" />
+      <workItem from="1539894276027" duration="2715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147422000" />
+    <option name="totallyTimeSpent" value="147755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -825,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="627">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
