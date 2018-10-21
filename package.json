@@ -6,10 +6,10 @@
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
-        "dev-server": "./node_modules/@symfony/webpack-encore/bin/encore.js dev-server",
-        "dev": "./node_modules/@symfony/webpack-encore/bin/encore.js dev",
-        "watch": "./node_modules/@symfony/webpack-encore/bin/encore.js dev --watch",
-        "build": "./node_modules/@symfony/webpack-encore/bin/encore.js production"
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production"
     },
     "dependencies": {
         "bootstrap": "^4.0.0",
