@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Routing\RouterInterface;
 
 /**
- * @Route("/blog")
+ * @Route("/")
  */
 class BlogController extends AbstractController
 {
