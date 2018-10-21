@@ -8,7 +8,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20181014225925 extends AbstractMigration
+final class Version20181022225925 extends AbstractMigration
 {
     public function up(Schema $schema) : void
     {
@@ -30,7 +30,7 @@ final class Version20181014225925 extends AbstractMigration
         $this->addSql('ALTER TABLE user ADD CONSTRAINT FK_8D93D6497CCD6FB7 FOREIGN KEY (preferences_id) REFERENCES user_preferences (id)');
         $this->addSql('ALTER TABLE following ADD CONSTRAINT FK_71BF8DE3A76ED395 FOREIGN KEY (user_id) REFERENCES user (id)');
         $this->addSql('ALTER TABLE following ADD CONSTRAINT FK_71BF8DE31896F387 FOREIGN KEY (following_user_id) REFERENCES user (id)');
-        $this->addSql('CREATE TABLE `sessions` (`sess_id` VARCHAR(128) NOT NULL PRIMARY KEY,`sess_data` BLOB NOT NULL,`sess_time` INTEGER UNSIGNED NOT NULL,`sess_lifetime` MEDIUMINT NOT NULL) COLLATE utf8_bin, ENGINE = InnoDB;');
+        $this->addSql('CREATE TABLE sessions (sess_id VARCHAR(128) NOT NULL PRIMARY KEY,sess_data BLOB NOT NULL,sess_time INTEGER UNSIGNED NOT NULL,sess_lifetime MEDIUMINT NOT NULL) COLLATE utf8_bin, ENGINE = InnoDB;');
     }
 
     public function down(Schema $schema) : void
@@ -53,6 +53,6 @@ final class Version20181014225925 extends AbstractMigration
         $this->addSql('DROP TABLE user');
         $this->addSql('DROP TABLE following');
         $this->addSql('DROP TABLE user_preferences');
-        $this->addSql('DROP TABLE `sessions`');
+        $this->addSql('DROP TABLE sessions');
     }
 }
