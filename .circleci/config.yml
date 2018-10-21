@@ -56,7 +56,7 @@ jobs:
           command: php bin/console cache:warmup --env=prod --no-interaction
       - run:
           name: Encore
-          command: yarn install && yarn run build
+          command: yarn install && yarn run encore production
       - run:
           name: Add droplet
           command: ssh-keyscan -H $DROPLET_IP >> ~/.ssh/known_hosts
